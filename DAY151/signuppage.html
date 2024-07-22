@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <center>
+   <div>
+       <span style="color:blue"><h1>SIGN UP</h1></span>
+   </div>
+  <form>
+    <label for="username"><b>Username:</b></label>  
+    <input type="username" name="name" placeholder="Enter your name" maxlength="10" required autofocus><br><br>
+    <label for="email"><b>Email:</b></label>  
+    <input  name="name" placeholder="Enter your mail" required pattern="[a-z 0-9._]+@[a-z]+\.[a-z]{2,4}"><br><br>
+    <label for="number"><b>Phone Number:</b></label>  
+    <input type="number" name="name" placeholder="Enter your number"><br><br>    
+    <label for="username"><b>Password:</b></label>  
+    <input name="name" placeholder="password " pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*[0-9])[A-Za-z!@#$%^&0-9]{8}" title="please must be 8 characters"><br><br>   
+    <label for="confirm password"><b>Confirm Password:</b></label>  
+    <input type="confirm password" id="confirm passsword" name="name" placeholder="Confirm Password"><br><br>
+    <input type="submit" formaction="loginpage.html" value="SIGN UP">
+    </center>
+  </form>
+</body>
+</html>
